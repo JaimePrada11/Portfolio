@@ -132,6 +132,7 @@ export const certifications = [
         company: "https://www.efset.org/static/iconset/apple-touch-icon.png",
         description: "English Certificate.",
         year: 2024,
+        category: 'Desarrollo',
         Url: "https://cert.efset.org/en/XjU93d",
     },
     {
@@ -140,11 +141,13 @@ export const certifications = [
         company: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_Ministerio_de_las_TIC_%282022-2026%29.png",
         description: "Bootcamp Programación",
         year: 2024,
+        category: 'Desarrollo',
         Url: "https://cert.efset.org/en/XjU93d",
     },
     {
         id: 3,
         title: "SENA",
+        category: 'Desarrollo',
         company: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/2090px-Sena_Colombia_logo.svg.png",
         description: "English Certificate.",
         year: 2022,
