@@ -8,7 +8,7 @@ const Certificates = () => {
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col items-center py-10">
       <h1 className="text-4xl text-white font-bold mb-8">
-        Certificates & Events
+        Certificates
       </h1>
       <div className="space-y-4 w-full px-4">
         {certifications.map((cert, index) => (

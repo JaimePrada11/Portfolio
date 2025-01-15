@@ -71,7 +71,7 @@ const Skills = () => {
                     viewBox="0 0 500 500"
                     className="w-full h-full"
                     fill="none"
-                    stroke="#FFDD00"
+                    stroke="rgba(128, 128, 128, 0.5)"
                 >
                     {/* Líneas diagonales */}
                     <line x1="0" y1="0" x2="500" y2="500" strokeWidth="0.5" />
@@ -104,7 +104,7 @@ const Skills = () => {
                             transform: `translate(${positions[index].x}px, ${positions[index].y}px)`,
                         }}
                     >
-                        <div className="text-yellow-500 text-4xl">
+                        <div className="text-yellow-500 text-5xl">
                             {skill.icon}
                         </div>
                     </div>
