@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard'; 
-import { projects } from '../../../public/local/Info'; 
+import { projects } from '../../local/Info'; 
 
 const Projects = () => {
   return (
