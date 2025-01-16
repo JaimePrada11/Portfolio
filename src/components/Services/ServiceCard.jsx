@@ -14,7 +14,7 @@ const ServiceCard = ({ title, description, image, icon: Icon }) => {
           isHovered ? "opacity-0" : "opacity-100"
         }`}
       >
-        <Icon className="text-white w-16 h-16 mb-12 transition-transform duration-300" />
+        <Icon className="text-red-500 w-16 h-16 mb-12 transition-transform duration-300" />
         <h2 className="text-white text-xl font-semibold uppercase">
           {title}
         </h2>

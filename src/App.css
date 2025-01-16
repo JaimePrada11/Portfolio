@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(17, 2, 63);
+  background-color: rgb(0, 0, 0);
 }
 
 h1, h2 {
@@ -8,4 +8,13 @@ h1, h2 {
 
 p, h3 {
   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer{
+  background-color: rgb(1, 1, 53);
 }
