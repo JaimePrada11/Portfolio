@@ -1,11 +1,18 @@
 import { SiHtml5, SiCss3, SiJavascript, SiMysql, SiTailwindcss, SiPython } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin, FaJava } from "react-icons/fa";
-import CampusParking from "../../src/assets/CampusParking.png"
-import DeliciasFood from "../../src/assets/DeliciasFood.png"
-import StarwarsApi from "../../src/assets/StarwarsApi.png"
+import CampusParking from "../../src/assets/CampusParking.png";
+import DeliciasFood from "../../src/assets/DeliciasFood.png";
+import StarwarsApi from "../../src/assets/StarwarsApi.png";
+import database from  "../../src/assets/database.jpg";
+import app from  "../../src/assets/app.jpg";
+import web from  "../../src/assets/web.jpg";
+
 import mysql from "../../src/assets/mysql.png"
 import python from "../../src/assets/python.jpg"
+import { FaDatabase } from "react-icons/fa";
+import { SiSetapp } from "react-icons/si";
+import { MdWebStories } from "react-icons/md";
 
 export const navbar = [
     {
@@ -50,29 +57,27 @@ export const values = [
     "Teamwork"
 ];
 
-/* export const services = [
+export const services = [
     {
-        id: 1,
-        title: "Figma",
-        icon: figma,
-        width: 26,
-        height: 36,
+      icon: MdWebStories,
+      image: web,
+      title: 'Responsive Web Development',
+      description: 'I create modern and adaptive websites using technologies like React, tailored for e-commerce and other business needs.'
     },
     {
-        id: 2,
-        title: "Notion",
-        icon: notion,
-        width: 34,
-        height: 36,
+      icon: FaDatabase,
+      image: database,
+      title: 'Database Design',
+      description: 'I design efficient and scalable relational databases to meet your project requirements.'
     },
     {
-        id: 3,
-        title: "Discord",
-        icon: discord,
-        width: 36,
-        height: 28,
-    },
-]; */
+      icon: SiSetapp,
+      image: app,
+      title: 'Java Applications',
+      description: 'I develop robust and customized Java applications optimized for diverse platforms.'
+    }
+  ];
+  
 
 export const projects = [
     {

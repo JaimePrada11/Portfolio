@@ -1,4 +1,6 @@
 import React from "react";
+import { FaPlay } from "react-icons/fa";
+
 
 const ProjectCard = ({ number, name, image, description, technologies, github }) => {
   return (
@@ -39,13 +41,7 @@ const ProjectCard = ({ number, name, image, description, technologies, github })
           onClick={() => window.open(github, "_blank")}
           className="bg-white text-red-600 rounded-full p-4 shadow-md hover:scale-105 transform transition-all"
         >
-          <svg
-            className="h-4 w-4"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path d="M8 5v14l11-7L8 5z" />
-          </svg>
+          <FaPlay className="w-5 h-5"/>
         </button>
       </div>
     </div>
