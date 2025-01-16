@@ -48,6 +48,14 @@ export const aboutme = [
     "Focused on generating effective solutions and sustainable results in high-impact projects. Through my experience, I have developed skills in logical thinking, attention to detail, and goal orientation, which motivate me to collaborate in teams and lead with a strategic vision. I always strive to innovate and add value to each initiative to drive the development and success of the projects I work on."
 ];
 
+export const mission = [
+    "Focused on generating effective solutions and sustainable results in high-impact projects. Through my experience, I have developed skills in logical thinking, attention to detail, and goal orientation, which motivate me to collaborate in teams and lead with a strategic vision. I always strive to innovate and add value to each initiative to drive the development and success of the projects I work on."
+];
+
+export const vission = [
+    "Focused on generating effective solutions and sustainable results in high-impact projects. Through my experience, I have developed skills in logical thinking, attention to detail, and goal orientation, which motivate me to collaborate in teams and lead with a strategic vision. I always strive to innovate and add value to each initiative to drive the development and success of the projects I work on."
+];
+
 
 export const values = [
     "Problem Solving",

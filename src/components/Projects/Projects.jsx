@@ -5,7 +5,7 @@ import { projects } from '../../local/Info';
 const Projects = () => {
   return (
     <>
-    <h2 className="text-4xl md:text-8xl font-bold text-red-900 text-center uppercase">
+    <h2 className="text-4xl md:text-5xl font-bold text-yellow-500 text-center uppercase">
         My Projects
       </h2>
     <div className="projects-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-2 p-4">

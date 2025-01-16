@@ -11,7 +11,7 @@ const Certificates = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-10">
+    <div className=" flex flex-col items-center py-10">
       <h1 className="text-4xl text-white font-bold mb-8">Certificates</h1>
       <div className="space-y-4 w-full px-4">
         {certifications.map((certificate, index) => (

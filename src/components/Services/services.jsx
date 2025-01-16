@@ -6,8 +6,7 @@ const Services = () => {
   return (
     <>
       <div className="text-center">
-        <h1 className="text-2xl font-bold mb-2">Services</h1>
-        <h2 className="text-xl mb-4">Mis servicios</h2>
+        <h1 className="text-5xl font-bold mb-2 text-yellow-500">Services</h1>
       </div>
       <div className="container m-auto w-[80vw]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
